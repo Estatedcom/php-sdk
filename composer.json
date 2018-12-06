@@ -2,6 +2,7 @@
     "name": "estatedcom/php-sdk",
     "description": "Estated SDK for PHP",
     "keywords": ["estated", "sdk", "php"],
+    "homepage": "https://github.com/estatedcom/php-sdk",
     "license": "MIT",
     "authors": [
         {
