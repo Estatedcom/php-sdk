@@ -1,0 +1,31 @@
+{
+    "name": "datanerdscom/estated-php-sdk",
+    "description": "Estated SDK for PHP",
+    "keywords": ["estated", "sdk", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Data Nerds",
+            "email": "support@datanerds.com",
+            "homepage": "https://github.com/datanerdscom/estated-php-sdk"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Estated\\": "src/Estated"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
